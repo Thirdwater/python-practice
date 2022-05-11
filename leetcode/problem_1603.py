@@ -33,7 +33,7 @@ class ParkingSystem:
         # This signature is just from the prompt.
         if self.num_parked_cars[carType] >= self.max_parking_spaces[carType]:
             return False
-        
+
         self.num_parked_cars[carType] += 1
         return True
 
